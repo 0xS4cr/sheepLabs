@@ -15,7 +15,7 @@ const Services: React.FC = () => {
             <div className="inside-card">
               <h2><FormattedMessage id="card.title1" defaultMessage="Design" /></h2>
               <div className="card-img">
-              <img src="../src/assets/cardDesign.png" alt="sheep designer" /></div>
+              <img src="../assets/cardDesign.png" alt="sheep designer" /></div>
               <div className="card-txt">
                 <ul>
                   <li className="arrowright"><FontAwesomeIcon className="iconright"  icon={faArrowRight} /><FormattedMessage id="card1.text1" defaultMessage="Design" /></li>
@@ -30,7 +30,7 @@ const Services: React.FC = () => {
             <div className="inside-card">
               <h2><FormattedMessage id="card.title2" defaultMessage="Website" /></h2>
               <div className="card-img">
-              <img src="../src/assets/cardWeb.png" alt="sheep developer" /></div>
+              <img src="../assets/cardWeb.png" alt="sheep developer" /></div>
               <div className="card-txt">
                 <ul>
                   <li className="arrowright"><FontAwesomeIcon className="iconright" icon={faArrowRight} /><FormattedMessage id="card2.text1" defaultMessage="Design" /></li>
@@ -45,7 +45,7 @@ const Services: React.FC = () => {
             <div className="inside-card">
               <h2><FormattedMessage id="card.title3" defaultMessage="The LAB" /></h2>
               <div className="card-img">
-              <img src="../src/assets/cardLab.png" alt="sheep student" /></div>
+              <img src="../assets/cardLab.png" alt="sheep student" /></div>
               <div className="card-txt">
                <p><FormattedMessage id="card3.text1" defaultMessage="Design" /></p>
                <div className="card-btn">
