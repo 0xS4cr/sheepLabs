@@ -1,0 +1,39 @@
+{
+    "navbar.contact": "CONTACT",
+    "navbar.about": "ABOUT",
+    "navbar.service": "SERVICES",
+
+    "banner.subtitle": "Digital Agency",
+    "banner.from": "-Based in Haute-Saône (70), FRANCE-",
+    "banner.text": "Our imagination and experience to boost your Internet presence. Whether you're an expert in your field or a start-up company full of ideas, we'll create a bespoke graphic style, attractive websites and eye-catching visuals. Our aim? To help you stand out from the crowd and achieve your marketing objectives.",
+
+    "card.title1": "Design",
+    "card.title2": "Website",
+    "card.title3": "The LAB",
+
+    "card.text1": "Agence Numérique",
+    "card.text2": "Agence Numérique",
+    "card.text3": "Agence Numérique",
+
+    "card1.text1": "Brand Identity Development",
+    "card1.text2": "Logo Design",
+    "card1.text3": "Advertising Material Design",
+    "card1.text4": "Visual Identity Creation",
+
+    "card2.text1": "FrontEnd Development",
+    "card2.text2": "User Interface Design",
+    "card2.text3": "Website Optimization",
+    "card2.text4": "Responsive Design Integration",
+
+    "card3.text1": "A creative hub for developers and designers, dedicated to the conception of innovative projects focused on the future of the web, artificial intelligence and new technologies. A place for exchange and collaboration to shape the future.",
+    "card3.button1": "JOIN US",
+    "card3.text2": "COMING 2024",
+
+    "about.text1": "In 2023, in the verdant landscape of Haute-Saône, a new digital star was born: SHEEP. Founded by Clément, a passionate web developer with a wealth of front-end experience, SHEEP is the fruit of a bold vision. Clément, with his programming expertise and thirst for innovation, decided to create an agency that stands out for its creativity and modern approach to digital. At SHEEP, we firmly believe that technology should be both intuitive and aesthetically pleasing, reflecting our commitment to excellence and innovation.",
+    "about.text2": "A partner dedicated to turning your digital visions into reality. Specializing in modern design and web development, we use cutting-edge technologies such as ViteJS, React and Redux to create dynamic, responsive and visually captivating websites. Our expertise extends to animation and 3D, delivering an immersive and interactive user experience. At SHEEP, we integrate all the necessary tools to build solutions that are not only functional but also intuitively adapted to our customers' needs. Together, we can make your digital project a dazzling reality.",
+    "about.text3": "WHY SHEEP ?",
+    "about.text4": "Sheep are often seen in flocks, symbolizing collaboration and unity. This reflects our collaborative approach to project development, emphasizing teamwork and community. Sheep are also known for their intelligence and ability to adapt to their environment.",
+
+    "contact.text": "🐑 Contact us via our social networks or by e-mail 🐑"
+  }
+  
