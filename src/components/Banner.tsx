@@ -88,7 +88,7 @@ export default function Banner() {
                 </div>
             </div>
             <div className='image-ctn'>
-               <img src="../src/assets/profil.png" alt="" />
+               <img src="../assets/profil.png" alt="" />
             </div>
         </div>
     );
