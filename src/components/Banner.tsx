@@ -5,6 +5,7 @@ import { FormattedMessage } from "react-intl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import profil from '../assets/profil.png';
 
 export default function Banner() {
     const titleRef = useRef<HTMLHeadingElement>(null);
@@ -88,7 +89,7 @@ export default function Banner() {
                 </div>
             </div>
             <div className='image-ctn'>
-               <img src="../assets/profil.png" alt="" />
+               <img src={profil} alt="" />
             </div>
         </div>
     );
