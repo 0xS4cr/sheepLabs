@@ -485,17 +485,17 @@ z"
 						</button>
 						<div className="mobile-links">
 
-							<a href="/services">
+							<a href="#Services">
 								<FormattedMessage
 									id="navbar.service"
 									defaultMessage="Services"
 								/>
 							</a>
-							<a href="/about">
+							<a href="#About">
 								<FormattedMessage id="navbar.about" defaultMessage="About" />
 							</a>
 
-							<a href="/contact">
+							<a href="#Contact">
 								<FormattedMessage
 									id="navbar.contact"
 									defaultMessage="Contact"
