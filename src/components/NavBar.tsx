@@ -33,7 +33,7 @@ const NavBar: React.FC<NavBarProps> = ({
 	return (
 		<nav onClick={handleOutsideClick} >
 			<div className="navbar-logo">
-				<a href="#Home">
+				<a href="#Home" aria-label="Logo Sheep" >
 					<svg
 						version="1.1"
 						id="Layer_1"
@@ -438,6 +438,7 @@ z"
 				<div className="language-switch-desktop">
 					<span
 						className={currentLanguage === "fr" ? "active" : ""}
+						aria-label="Lang FR button"
 						onClick={() => onLanguageChange("fr")}
 					>
 						FR
@@ -445,27 +446,29 @@ z"
 					/
 					<span
 						className={currentLanguage === "en" ? "active" : ""}
+						aria-label="Lang EN button"
 						onClick={() => onLanguageChange("en")}
 					>
 						EN
 					</span>
 				</div>
 				<button className="theme" onClick={toggleTheme}>
-					<FontAwesomeIcon icon={currentTheme === "dark" ? faSun : faMoon} />
+					<FontAwesomeIcon icon={currentTheme === "dark" ? faSun : faMoon} aria-label="Theme button" />
 				</button>
 			</div>
 			<div className="mobile">
-				<button className="menu-mobile" onClick={handleModalClick}>
+				<button className="menu-mobile" aria-label="Menu button" onClick={handleModalClick}>
 					<FontAwesomeIcon icon={faBars} />
 				</button>
 				{showModal && (
 					<div className="menu-modal">
-						<button className="close-modal" onClick={handleModalClick}>
+						<button className="close-modal"  onClick={handleModalClick}>
 							<FontAwesomeIcon icon={faTimes} />
 						</button>
-						<div className="language-switch-mobile">
+						<div className="language-switch-mobile" >
 							<span
 								className={currentLanguage === "fr" ? "active" : ""}
+								aria-label="Lang FR button"
 								onClick={() => onLanguageChange("fr")}
 							>
 								FR
@@ -473,12 +476,13 @@ z"
 							/
 							<span
 								className={currentLanguage === "en" ? "active" : ""}
+								aria-label="Lang EN button"
 								onClick={() => onLanguageChange("en")}
 							>
 								EN
 							</span>
 						</div>
-						<button className="theme-mobile" onClick={toggleTheme}>
+						<button className="theme-mobile" aria-label="Theme button" onClick={toggleTheme}>
 							<FontAwesomeIcon
 								icon={currentTheme === "dark" ? faSun : faMoon}
 							/>
