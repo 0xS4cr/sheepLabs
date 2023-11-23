@@ -45,7 +45,7 @@ export default function Banner() {
         let url: string = '';
         switch (iconName) {
             case 'facebook':
-                url = 'https://www.facebook.com/';
+                url = 'https://www.facebook.com/people/SHEEP-LABS/61553833833263/';
                 break;
             case 'instagram':
                 url = 'https://www.instagram.com/';
