@@ -31,9 +31,9 @@ const NavBar: React.FC<NavBarProps> = ({
 	};
 
 	return (
-		<nav onClick={handleOutsideClick}>
+		<nav onClick={handleOutsideClick} >
 			<div className="navbar-logo">
-				<a href="/">
+				<a href="#Home">
 					<svg
 						version="1.1"
 						id="Layer_1"
@@ -485,17 +485,17 @@ z"
 						</button>
 						<div className="mobile-links">
 
-							<a href="#Services">
+							<a href="/services">
 								<FormattedMessage
 									id="navbar.service"
 									defaultMessage="Services"
 								/>
 							</a>
-							<a href="#About">
+							<a href="/about">
 								<FormattedMessage id="navbar.about" defaultMessage="About" />
 							</a>
 
-							<a href="#Contact">
+							<a href="/contact">
 								<FormattedMessage
 									id="navbar.contact"
 									defaultMessage="Contact"

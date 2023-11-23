@@ -74,16 +74,16 @@ export default function Banner() {
                 </h1>
                 <h2 className='subtitle'><FormattedMessage id="banner.subtitle" defaultMessage="Digital Agency" /><br />& LABS</h2>
                 <div className='social-links' ref={socialLinksRef}>
-                    <button className='social-btn' onClick={() => handleSocialClick('facebook')}>
+                    <button className='social-btn' aria-label="Facebook" onClick={() => handleSocialClick('facebook')}>
                         <FontAwesomeIcon icon={faFacebook} />
                     </button>
-                    <button className='social-btn' onClick={() => handleSocialClick('instagram')}>
+                    <button className='social-btn' aria-label="Instagram" onClick={() => handleSocialClick('instagram')}>
                         <FontAwesomeIcon icon={faInstagram} />
                     </button>
-                    <button className='social-btn' onClick={() => handleSocialClick('linkedin')}>
+                    <button className='social-btn' aria-label="Linkedin" onClick={() => handleSocialClick('linkedin')}>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </button>
-                    <button className='social-btn' onClick={() => handleSocialClick('envelope')}>
+                    <button className='social-btn' aria-label="mail" onClick={() => handleSocialClick('envelope')}>
                         <FontAwesomeIcon icon={faEnvelope} />
                     </button>
                 </div>
