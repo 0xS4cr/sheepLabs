@@ -64,6 +64,7 @@ const App: React.FC = () => {
 
   return (
     <IntlProvider locale={locale} messages={messages[locale]}>
+      <div id="Home"></div>
       <NavBar onLanguageChange={handleLanguageChange} currentLanguage={locale} toggleTheme={toggleTheme} currentTheme={theme} />
       <section className='hero'>
       <Banner />
@@ -88,16 +89,16 @@ const App: React.FC = () => {
       <h1><FormattedMessage id="navbar.contact" defaultMessage="Contact" /></h1>  
       <h2><FormattedMessage id="contact.text" defaultMessage="Contact" /></h2>
       <div className='social-links'> 
-                    <button className='social-btn' onClick={() => handleSocialClick('facebook')}>
+                    <button className='social-btn' aria-label="Facebook" onClick={() => handleSocialClick('facebook')}>
                         <FontAwesomeIcon icon={faFacebook} />
                     </button>
-                    <button className='social-btn' onClick={() => handleSocialClick('instagram')}>
+                    <button className='social-btn' aria-label="Instagram" onClick={() => handleSocialClick('instagram')}>
                         <FontAwesomeIcon icon={faInstagram} />
                     </button>
-                    <button className='social-btn' onClick={() => handleSocialClick('linkedin')}>
+                    <button className='social-btn' aria-label="Linkedin" onClick={() => handleSocialClick('linkedin')}>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </button>
-                    <button className='social-btn' onClick={() => handleSocialClick('envelope')}>
+                    <button className='social-btn' aria-label="mail" onClick={() => handleSocialClick('envelope')}>
                         <FontAwesomeIcon icon={faEnvelope} />
                     </button>
                 </div>
